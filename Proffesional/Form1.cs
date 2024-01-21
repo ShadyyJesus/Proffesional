@@ -43,7 +43,7 @@ namespace Proffesional
                 PictureBox trafficLight = new PictureBox();
                 trafficLight.Size = new Size(33, 33); // устанавливаем размеры светофора
                 trafficLight.Location = new Point(clickedPictureBox.Location.X, clickedPictureBox.Location.Y);
-                trafficLight.Image = Image.FromFile("C:\\Users\\mrwiz\\OneDrive\\Изображения\\4.png");
+                trafficLight.Image = Image.FromFile("C:/Users/mrwiz/source/repos/Proffesional/image/4.png");
                 trafficLight.SizeMode = PictureBoxSizeMode.Zoom;
                 trafficLight.BackColor = Color.FromKnownColor(KnownColor.AppWorkspace);
                 Controls.Remove(clickedPictureBox);
@@ -63,7 +63,7 @@ namespace Proffesional
                 PictureBox peshehod = new PictureBox();
                 peshehod.Size = new Size(33, 33); 
                 peshehod.Location = new Point(clickedPictureBox.Location.X, clickedPictureBox.Location.Y);
-                peshehod.Image = Image.FromFile("C:\\Users\\mrwiz\\OneDrive\\Изображения\\6.png");
+                peshehod.Image = Image.FromFile("C:/Users/mrwiz/source/repos/Proffesional/image/6.png");
                 peshehod.SizeMode = PictureBoxSizeMode.Zoom;
                 peshehod.BackColor = Color.FromKnownColor(KnownColor.AppWorkspace);
                 Controls.Remove(clickedPictureBox);
@@ -83,7 +83,7 @@ namespace Proffesional
                 PictureBox znak = new PictureBox();
                 znak.Size = new Size(33, 33); // устанавливаем размеры светофора
                 znak.Location = new Point(clickedPictureBox.Location.X, clickedPictureBox.Location.Y);
-                znak.Image = Image.FromFile("C:\\Users\\mrwiz\\OneDrive\\Изображения\\1.png");
+                znak.Image = Image.FromFile("C:/Users/mrwiz/source/repos/Proffesional/image/1.png");
                 znak.SizeMode = PictureBoxSizeMode.Zoom;
                 znak.BackColor = Color.FromKnownColor(KnownColor.AppWorkspace);
                 Controls.Remove(clickedPictureBox);
@@ -103,7 +103,7 @@ namespace Proffesional
                 PictureBox perehod = new PictureBox();
                 perehod.Size = new Size(33, 33);
                 perehod.Location = new Point(clickedPictureBox.Location.X, clickedPictureBox.Location.Y);
-                perehod.Image = Image.FromFile("C:\\Users\\mrwiz\\OneDrive\\Изображения\\5.png");
+                perehod.Image = Image.FromFile("C:/Users/mrwiz/source/repos/Proffesional/image/5.png");
                 perehod.SizeMode = PictureBoxSizeMode.Zoom;
                 perehod.BackColor = Color.FromKnownColor(KnownColor.AppWorkspace);
                 Controls.Remove(clickedPictureBox);
